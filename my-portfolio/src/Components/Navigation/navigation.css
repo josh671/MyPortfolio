@@ -1,0 +1,16 @@
+@import "rsuite/dist/rsuite.css";
+
+#root{ 
+    padding: 10px; 
+    margin-bottom: 0; 
+    background-color: black;
+    height: 50px;
+    color: white;
+
+}
+a {
+    color: white;
+}
+ 
+
+  
