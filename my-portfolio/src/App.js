@@ -4,6 +4,7 @@ import HomePage from './Components/Home';
 import ProjectsPage from './Components/Projects';
 import ResumePage from './Components/Resume';
 import RootLayout from './Components/Roots';
+import './App.css'
 const router = createBrowserRouter([
   {
     path:'/', 

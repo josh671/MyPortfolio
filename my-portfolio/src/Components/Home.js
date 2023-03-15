@@ -4,11 +4,15 @@ import React from 'react'
 function HomePage() {
   return (
     <>
-      <body>
-        <Typography variant="p">
+        
           <p>Hello</p>
-        </Typography>
-      </body>
+          <p>Hello</p>
+          <p>Hello</p>
+          <p>Hello</p>
+          <p>Hello</p>
+           <p>Hello</p>
+          <p>Hello</p>
+        
     </>
   )
 }

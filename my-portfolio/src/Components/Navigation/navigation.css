@@ -1,15 +1,11 @@
 @import "rsuite/dist/rsuite.css";
 
-#root{ 
-    padding: 10px; 
-    margin-bottom: 0; 
+.navigation{
     background-color: black;
-    height: 50px;
-    color: white;
-
-}
-a {
-    color: white;
+    height: 55px; 
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
 }
  
 
