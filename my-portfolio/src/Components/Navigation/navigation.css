@@ -1,0 +1,12 @@
+@import "rsuite/dist/rsuite.css";
+
+.navigation{
+    background-color: black;
+    height: 55px; 
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+}
+ 
+
+  
