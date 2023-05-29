@@ -1,39 +1,36 @@
 
 import React from 'react'
 import './navigation.css'
-import { Link } from 'react-router-dom'
 import { Nav } from 'rsuite'
-import HomeIcon from '@rsuite/icons/legacy/Home'
+import HomeIcon from '@mui/icons-material/Home';
+import AdbIcon from '@mui/icons-material/Adb';
+import DescriptionIcon from '@mui/icons-material/Description';
+import { Typography, Container } from '@mui/material'
 const MainNavigation = ({ active, onSelect, ...props }) => { 
-
-  const NavLink = React.forwardRef((props, ref) => {
-
-    const { href, as, ...rest } = props;
-    console.log(props)
-    return (
-      <Link to={href} {...rest} />
-    );
-  });
-
-
   return (
+    <>
+     
+
     <Nav className='navigation'
       {...props}
       activeKey={active}
       onSelect={onSelect}
       style={{ marginBottom: 50 }}
     >
-      <Nav.Item eventKey="/" icon={<HomeIcon />} as={NavLink} href={'/'} >
+      <Nav.Item className='navItem' eventKey="/" icon={<HomeIcon />}   href={'/'} >
       Home
       </Nav.Item>
-      <Nav.Item eventKey="/" icon={<HomeIcon />} as={NavLink} href={'/ProjectsPage'} >
+      <Nav.Item className='navItem' eventKey="/ProjectsPage" icon={<AdbIcon />}  href={'/ProjectsPage'} >
       Projects
       </Nav.Item>
-      <Nav.Item eventKey="/" icon={<HomeIcon />} as={NavLink} href={'/ResumePage'} >
+      <Nav.Item className='navItem' eventKey="/ResumePage" icon={<DescriptionIcon />} href={'/ResumePage'} >
       Resume
       </Nav.Item>
-       
-    </Nav>
+    </Nav> 
+  
+    
+    
+    </>
   )
 }
 

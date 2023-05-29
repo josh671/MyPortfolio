@@ -4,9 +4,7 @@ import React from 'react'
 function ResumePage() {
   return (
     <>
-     <Typography>
      <p>Resume Page</p>
-     </Typography>
     
           
      
