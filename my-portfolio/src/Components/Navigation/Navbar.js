@@ -15,7 +15,7 @@ const MainNavigation = ({ active, onSelect, ...props }) => {
       {...props}
       activeKey={active}
       onSelect={onSelect}
-      style={{ marginBottom: 50 }}
+       
     >
       <Nav.Item className='navItem' eventKey="/" icon={<HomeIcon />}   href={'/'} >
       Home

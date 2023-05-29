@@ -2,7 +2,7 @@ import React from 'react';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'; 
 import HomePage from './Components/HomePage/Home';
 import ProjectsPage from './Components/Projects/Projects';
-import ResumePage from './Components/Resume';
+import ResumePage from './Components/Resume/Resume';
 import RootLayout from './Components/Roots';
 import './App.css'
 const router = createBrowserRouter([
